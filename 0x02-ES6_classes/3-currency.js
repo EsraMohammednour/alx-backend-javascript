@@ -8,7 +8,7 @@ export default class Currency {
     return this._name;
   }
 
-  set name(newname){
+  set name(newname) {
     if (typeof newname !== 'string') {
       throw new Error('Name must be a string');
     }
@@ -26,7 +26,7 @@ export default class Currency {
     this._code = newcode;
   }
 
-  function displayFullCurrency() {
+  displayFullCurrency() {
     return `${this.name} (${this.code})`;
   }
 }
