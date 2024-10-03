@@ -12,7 +12,7 @@ export default class Currency {
     this._code = newcode;
   }
 
-get name() {
+  get name() {
     return this._name;
   }
 
